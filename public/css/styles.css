@@ -7637,6 +7637,10 @@ button.bg-dark:focus {
   margin-bottom: 3rem !important;
 }
 
+.mb-5.mb2-5 {
+  margin-bottom: 0em !important;
+}
+
 .ml-5,
 .mx-5 {
   margin-left: 3rem !important;
@@ -10256,6 +10260,13 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+.footer2 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background-color: #2c3e50;
   color: #fff;
 }
