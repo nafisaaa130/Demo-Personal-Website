@@ -602,6 +602,13 @@ pre code {
   margin-left: -1.5rem;
 }
 
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+}
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -1121,7 +1128,7 @@ pre code {
 
   .col-md-6 {
     flex: 0 0 50%;
-    max-width: 50%;
+    max-width: 100%;
   }
 
   .col-md-7 {
@@ -10174,7 +10181,7 @@ h3 {
   cursor: pointer;
   position: relative;
   display: block;
-  max-width: 25rem;
+  max-width: 10rem;
   border-radius: 0.5rem;
   overflow: hidden;
 }
@@ -10186,10 +10193,24 @@ h3 {
   opacity: 0;
   background-color: rgba(26, 188, 156, 0.9);
 }
+.portfolio-item-caption2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: rgba(87, 207, 183, 0.9);
+}
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
 }
+.portfolio-item-caption2:hover {
+  opacity: 1;
+}
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+  font-size: 1.5rem;
+}
+.portfolio-item-caption2 {
   font-size: 1.5rem;
 }
 
