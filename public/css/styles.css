@@ -10178,12 +10178,21 @@ h3 {
   font-size: 80px;
   opacity: 1 !important;
 }
-#parent_typing {
+#typewriter {
+	margin: 0;
+	font-family: "Courier New";    
   height: 200px;
   white-space: nowrap;
   overflow: hidden; 
   color: rgba(0,255,0,.75);
   position: relative;
+
+  &:after{
+		content: "|";
+    animation: blink 500ms linear infinite 
+alternate;
+  }
+
 }
 #border_typing {
   border-bottom: solid 3px rgba(0,255,0,.75);
@@ -10191,26 +10200,42 @@ h3 {
   right: -7px;
   width: 63px;
 }
+@-webkit-keyframes blink{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+@-moz-keyframes blink{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+@keyframes blink{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
 
 /* Animation */
-#parent_typing {
+/*#parent_typing {
   animation: animated-text 1.5s steps(30,end) 1s 1 normal both
-}
+}*/
 #border_typing {
    animation: animated-cursor 600ms steps(30,end) infinite;
 }
-
 /* text animation */
 @keyframes animated-text{
   from{width: 0;}
   to{width: 393px;}
 }
-
 /* cursor animations */
 @keyframes animated-cursor{
   from{border-bottom-color: rgba(0,255,0,.75);}
   to{border-bottom-color: transparent;}
 }
+.bodyheader_typing {
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+
 
 @media (min-width: 992px) {
   .masthead {
