@@ -147,12 +147,12 @@ anychart.onDocumentReady(function () {
     {x: 'Java', value: 70},
     {x: 'SQL', value: 80},
     {x: 'C', value: 60},
-    {x: 'Git', value: 90},
-    {x: 'QA Testing', value: 75},
-    {x: 'Linux', value: 90},
+    {x: 'JavaScript', value: 50},
+    {x: 'QA Testing', value: 80},
     {x: 'Machine Learning', value: 60},
     {x: 'NodeJS', value: 50},
-    {x: 'JavaScript', value: 50},
+    {x: 'Git', value: 90},
+    {x: 'Linux', value: 90},
     {x: 'AWS', value: 40},
     {x: 'Pandas', value: 60}
   ]
@@ -170,8 +170,8 @@ anychart.onDocumentReady(function () {
     .ticks({'interval':20});
 
   //create series
-  //chart.line(data1)
-  chart.area(data1).name('Charmander').markers(true).fill("#E55934", 0.3).stroke("#E55934")
+  //chart.line(data1);
+  chart.area(data1).name('Proficiency Score').markers(true).fill("#34e5aa", 0.3).stroke("#34e5aa");
 
   //referring to the container id from the HTML page
   chart.container('radarchart');
