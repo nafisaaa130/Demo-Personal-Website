@@ -28,7 +28,7 @@ DEALINGS IN THE SOFTWARE.-->
         <meta name="author" content="" />
         <title><%= pageTitle %></title>
         <!-- Favicon-->
-        <!--link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!--link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" /-->
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -36,6 +36,9 @@ DEALINGS IN THE SOFTWARE.-->
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!--Radar Chart in the Skills Section-->
+        <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-core.min.js"></script>
+        <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-radar.min.js"></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -220,11 +223,11 @@ DEALINGS IN THE SOFTWARE.-->
                 <!--h2 class="page-section-heading text-center text-uppercase text-white">Skills</h2-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Skills</h2>
                 <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <!--div class="divider-custom-line"></div-->
-                </div>
+                <!--div class="divider-custom divider-light">
+                    <--div class="divider-custom-line"></div>
+                </div-->
                 <!-- About Section Content-->
-                <div class="row text-secondary">
+                <!--div class="row text-secondary">
                     <div class="col-lg-4 ml-auto">
                         <ul class="lead">
                             <li>Python</li>
@@ -233,25 +236,11 @@ DEALINGS IN THE SOFTWARE.-->
                             <li>C</li>
                             <li>JavaScript</li>
                         </ul>
-                    </div>
-                    <div class="col-lg-4 mr-auto">
-                        <ul class="lead">
-                            <li>Linux</li>
-                            <li>QA Testing</li>
-                            <li>Machine Learning</li>
-                            <li>NodeJS</li>
-                            <li>Git</li>
-                        </ul>
-                    </div>
+                    </div-->
+                    
                 </div>
-                <!-- About Section Button-->
-                <!--div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
-                        <i class="fas fa-download mr-2"></i>
-                        Free Download!
-                    </a>
-                </div-->
             </div>
+            <div id="radarchart"></div>
         </section>
         <!-- Contact Section-->
         <section class="page-section bg-primary" id="contact">

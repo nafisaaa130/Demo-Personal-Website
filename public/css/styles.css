@@ -10181,14 +10181,14 @@ h3 {
 }
 .font-size {
   font-size: 70px;
-  opacity: 1 !important;
+  opacity: 100;
 }
 #typewriter {
 	margin: 0;  
   height: 200px;
   white-space: nowrap;
   overflow: hidden; 
-  color: rgba(0,255,0,.75);
+  color: rgb(0, 255, 0);
   position: relative;
 }
 #typewriter::after {
@@ -10214,6 +10214,12 @@ h3 {
   font-weight: 10;
 }
 
+#radarchart {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 @media (min-width: 992px) {
   .masthead {

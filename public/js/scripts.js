@@ -138,4 +138,43 @@ var typer = document.getElementById('typewriter');
 typewriter = setupTypewriter(typewriter);
 
 typewriter.type();
+ 
+//Radar Chart in the Skills Section
+
+anychart.onDocumentReady(function () {
+  var data1 = [
+    {x: 'Python', value: 100},
+    {x: 'Java', value: 70},
+    {x: 'SQL', value: 80},
+    {x: 'C', value: 60},
+    {x: 'Git', value: 90},
+    {x: 'QA Testing', value: 75},
+    {x: 'Linux', value: 90},
+    {x: 'Machine Learning', value: 60},
+    {x: 'NodeJS', value: 50},
+    {x: 'JavaScript', value: 50},
+    {x: 'AWS', value: 40},
+    {x: 'Pandas', value: 60}
+  ]
   
+  //create radar chart
+  var chart = anychart.radar();
+
+  //set chart title
+  //chart.title("My Toolkit")
+
+  //set chart yScale settings
+  chart.yScale()
+    .minimum(0)
+    .maximum(100)
+    .ticks({'interval':20});
+
+  //create series
+  //chart.line(data1)
+  chart.area(data1).name('Charmander').markers(true).fill("#E55934", 0.3).stroke("#E55934")
+
+  //referring to the container id from the HTML page
+  chart.container('radarchart');
+  //initiate chart drawing
+  chart.draw();
+});
