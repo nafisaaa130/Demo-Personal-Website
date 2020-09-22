@@ -143,18 +143,18 @@ typewriter.type();
 
 anychart.onDocumentReady(function () {
   var data1 = [
-    {x: 'Python', value: 100},
-    {x: 'Java', value: 70},
-    {x: 'SQL', value: 80},
-    {x: 'C', value: 60},
-    {x: 'JavaScript', value: 50},
-    {x: 'QA Testing', value: 80},
-    {x: 'Machine Learning', value: 60},
-    {x: 'NodeJS', value: 50},
-    {x: 'Git', value: 90},
-    {x: 'Linux', value: 90},
-    {x: 'AWS', value: 40},
-    {x: 'Pandas', value: 60}
+    {x: 'Python (3 yrs)', value: 100},
+    {x: 'Java (2 yrs)', value: 70},
+    {x: 'SQL (<1 yr)', value: 80},
+    {x: 'C (2 yrs)', value: 60},
+    {x: 'JavaScript (<1 yr)', value: 50},
+    {x: 'QA Testing (1 yr)', value: 80},
+    {x: 'Machine Learning (1 yr)', value: 60},
+    {x: 'NodeJS (<1 yr)', value: 50},
+    {x: 'Git (2 yrs)', value: 90},
+    {x: 'Linux (1 yr)', value: 90},
+    {x: 'AWS (<1 yr)', value: 40},
+    {x: 'Pandas (<1 yr)', value: 60}
   ]
   
   //create radar chart
