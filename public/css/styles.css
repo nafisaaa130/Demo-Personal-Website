@@ -10162,8 +10162,14 @@ h3 {
 }
 .masthead {
   padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
+  padding-bottom: 0rem;
 }
+
+.header-section {
+  padding-top: calc(6rem + 74px);
+  padding-bottom: 0rem;
+}
+
 .masthead {
   font-size: 2.75rem;
   line-height: 2.75rem;
@@ -10176,7 +10182,7 @@ h3 {
 .masthead .masthead-subheading {
   font-size: 1.25rem;
 }
-.masthead .masthead-avatar {
+.header-section .masthead-avatar {
   width: 20rem;
 }
 .font-size {
