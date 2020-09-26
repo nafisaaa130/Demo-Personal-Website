@@ -178,4 +178,3 @@ anychart.onDocumentReady(function () {
   //initiate chart drawing
   chart.draw();
 });
-
