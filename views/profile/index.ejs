@@ -39,18 +39,12 @@ DEALINGS IN THE SOFTWARE.-->
         <!--Radar Chart in the Skills Section-->
         <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-core.min.js"></script>
         <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-radar.min.js"></script>
-        <!--Contact Us Section Icon and CSS Files-->
-        
+        <!--Contact Us Section CSS Files-->
         <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-    <!--===============================================================================================-->
         <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
-    <!--===============================================================================================-->
         <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
-    <!--===============================================================================================-->
         <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-    <!--===============================================================================================-->
         <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
-    <!--===============================================================================================-->
         <link rel="stylesheet" type="text/css" href="css/util.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
@@ -310,49 +304,52 @@ DEALINGS IN THE SOFTWARE.-->
             </div>
         </section-->
 
-        <div class="container-contact100" id="contact">
-
-            <div class="wrap-contact100">
-                <form class="contact100-form validate-form">
-                    <span class="contact100-form-title">
-                        Send A Message
-                    </span>
-
-                    <div class="wrap-input100 validate-input" data-validate="Please enter your name">
-                        <input class="input100" type="text" name="name" placeholder="Full Name">
-                        <span class="focus-input100"></span>
-                    </div>
-
-                    <div class="wrap-input100 validate-input" data-validate = "Please enter your email: e@a.x">
-                        <input class="input100" type="text" name="email" placeholder="E-mail">
-                        <span class="focus-input100"></span>
-                    </div>
-
-                    <div class="wrap-input100 validate-input" data-validate = "Please enter your phone">
-                        <input class="input100" type="text" name="phone" placeholder="Phone">
-                        <span class="focus-input100"></span>
-                    </div>
-
-                    <div class="wrap-input100 validate-input" data-validate = "Please enter your message">
-                        <textarea class="input100" name="message" placeholder="Your Message"></textarea>
-                        <span class="focus-input100"></span>
-                    </div>
-
-                    <div class="container-contact100-form-btn">
-                        <button class="contact100-form-btn">
-                            <span>
-                                <i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
-                                Send
+        <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
+        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+            <div class="container-contact100" id="contact">
+                <div class="wrap-contact100">
+                    <!--form class="contact100-form validate-form"-->
+                        <!--span class="contact100-form-title">
+                            Send A Message
+                        </span-->
+                        <h2 class="page-section-heading text-center text-uppercase text-secondary">
+                            <span class="contact100-form-title">
+                                Send A Message
                             </span>
-                        </button>
-                    </div>
-                </form>
+                        </h2>
+                        <div class="wrap-input100 validate-input" data-validate="Please enter your name">
+                            <input class="input100" type="text" name="name" placeholder="Full Name">
+                            <span class="focus-input100"></span>
+                        </div>
+
+                        <div class="wrap-input100 validate-input" data-validate = "Please enter your email: e@a.x">
+                            <input class="input100" type="text" name="email" placeholder="E-mail">
+                            <span class="focus-input100"></span>
+                        </div>
+
+                        <div class="wrap-input100 validate-input" data-validate = "Please enter your phone">
+                            <input class="input100" type="text" name="phone" placeholder="Phone">
+                            <span class="focus-input100"></span>
+                        </div>
+
+                        <div class="wrap-input100 validate-input" data-validate = "Please enter your message">
+                            <textarea class="input100" name="message" placeholder="Your Message"></textarea>
+                            <span class="focus-input100"></span>
+                        </div>
+
+                        <div class="container-contact100-form-btn">
+                            <button class="contact100-form-btn">
+                                <span>
+                                    <!--i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i-->
+                                    Send
+                                </span>
+                            </button>
+                        </div>
+                    <!--/form-->
+                </div>
             </div>
-	    </div>
-
-
-
-	<div id="dropDownSelect1"></div>
+	        <div id="dropDownSelect1"></div>
+        </form>
 
         <!-- Footer-->
         <footer class="footer2 text-center">
@@ -388,10 +385,10 @@ DEALINGS IN THE SOFTWARE.-->
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
             <div class="container"><small>Copyright © Nafisa Web</small></div>
+            <small>Freelance is a free to use, MIT licensed Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a></small>
             <div><small>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></small></div>
-            <small>Photo by <a href="https://unsplash.com/@sammisamuel21?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sam Albury</a> on <a href="https://unsplash.com/@sammisamuel21?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></small>
-            <small>
-                Copyright © 2013-2019 Colorlib - All Rights Reserved. Theme by <a href="https://colorlib.com/" target="_blank">Colorlib</a> Powered by <a href="https://wordpress.org/" target="_blank">WordPress</a> </small>
+            <small>Keyboard Photo by <a href="https://unsplash.com/@sammisamuel21?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sam Albury</a> on <a href="https://unsplash.com/@sammisamuel21?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></small>
+            <br><small>Contact Section Theme by <a href="https://colorlib.com/" target="_blank">Colorlib</a> Powered by <a href="https://wordpress.org/" target="_blank">WordPress</a></small>
         </div>
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
         <div class="scroll-to-top d-lg-none position-fixed">
@@ -708,26 +705,28 @@ DEALINGS IN THE SOFTWARE.-->
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         
-        <!--===============================================================================================-->
-<!--===============================================================================================-->
+        <!--Contact Me Section-->
         <script src="vendor/animsition/js/animsition.min.js"></script>
-    <!--===============================================================================================-->
         <script src="vendor/bootstrap/js/popper.js"></script>
-    <!--===============================================================================================-->
         <script src="vendor/select2/select2.min.js"></script>
-    <!--===============================================================================================-->
         <script src="vendor/daterangepicker/moment.min.js"></script>
         <script src="vendor/daterangepicker/daterangepicker.js"></script>
-    <!--===============================================================================================-->
         <script src="vendor/countdowntime/countdowntime.js"></script>
-    <!--===============================================================================================-->
         <script src="js/main.js"></script>
 
         <!--Old Contact form JS-->
-        <!--script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
         <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
-        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23581568-13');
+        </script>
         <script src="js/scripts.js"></script>
     </body>
 </html>

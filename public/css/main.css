@@ -5,10 +5,10 @@
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
-@font-face {
+/*@font-face {
   font-family: Ubuntu-Bold;
   src: url('../fonts/ubuntu/Ubuntu-Bold.ttf'); 
-}
+}*/
 
 
 
@@ -148,7 +148,7 @@ iframe {
 .wrap-contact100 {
   width: 550px;
   background: transparent;
-  padding: 50px 0px 160px 0px;
+  padding: 50px 0px 50px 0px;
 }
 
 
@@ -160,14 +160,8 @@ iframe {
 }
 
 .contact100-form-title {
-  font-weight: 500;
-  display: block;
-  font-size: 30px;
-  color: #403866;
-  line-height: 1.2;
-  text-transform: uppercase;
-  text-align: center;
-  padding-bottom: 49px;
+  font-size: 2.25rem;
+  padding-bottom: 5rem;
 }
 
 /*------------------------------------------------------------------
