@@ -148,7 +148,7 @@ anychart.onDocumentReady(function () {
     {x: 'SQL (<1 yr)', value: 80},
     {x: 'C (2 yrs)', value: 60},
     {x: 'JavaScript (<1 yr)', value: 50},
-    /*{x: 'QA Testing (1 yr)', value: 80},*/
+    /*{x: 'Automation (1 yr)', value: 80},*/
     {x: 'Machine Learning (1 yr)', value: 60},
     {x: 'NodeJS (<1 yr)', value: 50},
     {x: 'Git (2 yrs)', value: 90},
