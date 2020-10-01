@@ -159,12 +159,12 @@ sup {
 }
 
 a {
-  color: #1abc9c;
+  color: #7584AD;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #117964;
+  color: #1abc9c;
   text-decoration: underline;
 }
 
@@ -2491,8 +2491,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  background-color: #a37f6f;
+  border-color: #a37f6f;
 }
 .btn-primary:hover {
   color: #fff;
@@ -2880,8 +2880,8 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light {
-  color: #f8f9fa;
-  border-color: #f8f9fa;
+  color: #a37f6f;
+  border-color: #a37f6f;
 }
 .btn-outline-light:hover {
   color: #212529;
@@ -4342,7 +4342,7 @@ input[type=button].btn-block {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: #a37f6f;
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.5);
@@ -9825,6 +9825,10 @@ button.bg-dark:focus {
   font-style: italic !important;
 }
 
+.text-certificate {
+  color: #314570 ! important;
+}
+
 .text-white {
   color: #fff !important;
 }
@@ -9838,11 +9842,31 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #A37F6F !important;
+  color: #fffbfb !important;
 }
 
-.text-inside {
+.text-inside1 {
+  color: #AED1D6 !important;
+}
+
+.text-inside2 {
+  color: #fc6862 !important;
+}
+
+.text-inside3 {
   color: #E09873 !important;
+}
+
+.text-inside4 {
+  color: #FAE57C !important;
+}
+
+.text-skills {
+  color: #7584AD !important;
+}
+
+.text-web {
+  color: #a37f6f !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -10269,7 +10293,7 @@ h3 {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: #a37f6f;
 }
 .portfolio-item-caption2 {
   position: absolute;
@@ -10277,13 +10301,13 @@ h3 {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(87, 207, 183, 0.9);
+  background-color: #a37f6f;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
+  opacity: .9;
 }
 .portfolio-item-caption2:hover {
-  opacity: 1;
+  opacity: 0.9;
 }
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
@@ -10374,5 +10398,5 @@ form .row:first-child .floating-label-form-group {
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #0b1014;
 }

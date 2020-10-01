@@ -160,7 +160,7 @@ anychart.onDocumentReady(function () {
   var chart = anychart.radar();
 
   //set chart title
-  chart.title("Level of Proficiency")
+  chart.title("Level of Proficiency");
 
   //set chart yScale settings
   chart.yScale()
@@ -170,7 +170,7 @@ anychart.onDocumentReady(function () {
 
   //create series
   //chart.line(data1);
-  chart.area(data1).name('Proficiency Score').markers(true).fill("#34e5aa", 0.3).stroke("#34e5aa");
+  chart.area(data1).name('Proficiency Score').markers(true).fill("#7584AD", 0.3).stroke("#485370");
 
   //referring to the container id from the HTML page
   chart.container('radarchart');
