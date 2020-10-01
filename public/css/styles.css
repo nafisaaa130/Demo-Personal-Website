@@ -4324,10 +4324,10 @@ input[type=button].btn-block {
 }
 
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: #a37f6f;
 }
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #fff;
+  color: #a37f6f;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.5);
@@ -4355,10 +4355,10 @@ input[type=button].btn-block {
   color: rgba(255, 255, 255, 0.5);
 }
 .navbar-dark .navbar-text a {
-  color: #fff;
+  color: #a37f6f;
 }
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
-  color: #fff;
+  color: #a37f6f;
 }
 
 .card {
@@ -10153,13 +10153,13 @@ h3 {
   color: #a37f6f;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
+  color: #aebbd6;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #fff;
+  color: #aebbd6;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1abc9c;
+  color: #aebbd6;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10180,12 +10180,10 @@ h3 {
     margin-top: 0;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
-    background: #1abc9c;
+    color: #aebbd6;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
-    background: #1abc9c;
+    color: #aebbd6;
   }
 
   #mainNav.navbar-shrink {
@@ -10333,7 +10331,7 @@ h3 {
   top: 1rem;
   font-size: 3rem;
   line-height: 3rem;
-  color: #1abc9c;
+  color: #a37f6f;
   opacity: 1;
 }
 
