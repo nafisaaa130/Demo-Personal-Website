@@ -2892,7 +2892,7 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
 }
 .btn-outline-light.disabled, .btn-outline-light:disabled {
-  color: #886a5d
+  color: #886a5d;
   background-color: transparent;
 }
 .btn-outline-light:not(:disabled):not(.disabled):active, .btn-outline-light:not(:disabled):not(.disabled).active, .show > .btn-outline-light.dropdown-toggle {
@@ -6141,13 +6141,13 @@ button.bg-primary:focus {
 }
 
 .bg-skills {
-  border-bottom: 0.3rem solid #7584AD;
+  border-bottom: 0.3rem solid #a37f6f;
 }
 
 .bg-web {
   background-color: #314570 !important;
   border-bottom: 0.2rem solid #a37f6f;
-  border-top: 0.2rem solid white;
+  /*border-top: 0.2rem solid #a37f6f;*/
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
