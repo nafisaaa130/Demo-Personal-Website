@@ -153,7 +153,7 @@ anychart.onDocumentReady(function () {
     {x: 'NodeJS (<1 yr)', value: 50},
     {x: 'Git (2 yrs)', value: 90},
     {x: 'Linux (1 yr)', value: 90},
-    {x: 'AWS (<1 yr)', value: 40}
+    {x: 'AWS (<1 yr)', value: 60}
   ]
   
   //create radar chart
