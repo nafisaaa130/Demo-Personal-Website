@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 var profileController = require('./routes/profile');
 app.use(profileController);
 
-var port = 80;
+var port = 443;
 
 app.listen(port);
 console.log("Listening on Port:", port);
