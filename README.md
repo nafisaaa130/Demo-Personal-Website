@@ -1,4 +1,4 @@
-# Personal Website Implementing NodeJS and AWS EC2 Instance
+# DEMO Personal Website (v0.0) Implementing NodeJS and AWS EC2 Instance
 
 ### Introduction
 Just working on my NodeJS and JavaScript skills by using a Bootstrap theme and constructing a **DEMO** personal website - version 0.0 :zero:
