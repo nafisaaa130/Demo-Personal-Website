@@ -4,6 +4,7 @@
 Just working on my NodeJS and JavaScript skills by using a Bootstrap theme and constructing a **DEMO** personal website - version 0.0 :zero:
 
 ### Tools :triangular_ruler::hammer:
+* **JavaScript, HTML, and CSS** - added some personalized changes (such as color change, formatting, and add the keyboard animation at the top of the page)
 * **NodeJS** - used to run the backend server
 * **AWS** (Free Tier) EC2 instance - kept my website running
 * **Dynadot** - hosted my EC2 instance on a custom domain
