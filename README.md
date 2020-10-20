@@ -1,7 +1,7 @@
 # DEMO Personal Website (v0.0) Implementing NodeJS and AWS EC2 Instance
 
-### Introduction
-Just working on my NodeJS and JavaScript skills by using a Bootstrap theme and constructing a **DEMO** personal website - version 0.0 :zero:
+### Introduction :zero:
+Just working on my NodeJS and JavaScript skills by using a Bootstrap theme and constructing a **DEMO** personal website - version 0.0
 
 ### Tools :triangular_ruler::hammer:
 * **JavaScript, HTML, and CSS** - added some personalized changes (such as color change, formatting, and add the keyboard animation at the top of the page)
