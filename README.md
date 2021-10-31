@@ -1,4 +1,8 @@
-# DEMO Personal Website (v0.0) Implementing NodeJS and AWS EC2 Instance
+# DEMO Personal Website (v0.0) Implementing NodeJS and AWS EC2 Instance (***Under construction***)
+
+###Quick Visual of the Website
+
+![alt text](public\assets\img\demo\website_demo.gif)
 
 ### Introduction :zero:
 Just working on my NodeJS and JavaScript skills by using a Bootstrap theme and constructing a **DEMO** personal website - version 0.0
@@ -10,7 +14,8 @@ Just working on my NodeJS and JavaScript skills by using a Bootstrap theme and c
 * **Dynadot** - hosted my EC2 instance on a custom domain
 
 ### Thoughts :cloud:
-I had a lot of fun going through just the basic struggles of trying to publish a website. It was my first time, but I enjoyed learning how these different tools can work together. You can check it out at link to [nafisasarowar.com](http://nafisasarowar.com/)
+I had a lot of fun going through just the basic struggles of trying to publish a website. It was my first time, but I enjoyed learning how these different tools can work together. You can check it out at link to [nafisasarowar.com](http://nafisasarowar.com/). This link is currently not working.
 
 ### Improvements :bookmark_tabs:
 Definitely going to stick with a standard website and create an improved website in the future.
+
