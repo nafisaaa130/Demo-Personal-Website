@@ -1,8 +1,7 @@
 # DEMO Personal Website (v0.0) Implementing NodeJS and AWS EC2 Instance (***Under construction***)
 
 ### Quick Visual of the Website
-
-![](public\assets\img\demo\website_demo.gif)
+![hippo](https://github.com/nafisaaa130/Demo-Personal-Website/blob/master/public/assets/img/demo/website_demo.gif)
 
 ### Introduction :zero:
 Just working on my NodeJS and JavaScript skills by using a Bootstrap theme and constructing a **DEMO** personal website - version 0.0
